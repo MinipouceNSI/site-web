@@ -27,6 +27,13 @@
             width: 30%
         }
 
+        img{
+            padding-right: 40%;
+            padding-left: 20%;
+            padding-bottom: 40%;
+        
+        }
+
         a{
             color: black;
         }
@@ -38,3 +45,5 @@
         ol{
             background-color: chartreuse;
         }
+
+        
