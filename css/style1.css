@@ -2,25 +2,39 @@
         body{
             background-color: rgb(141, 77, 77);
         }
+
         h1{
             background-color: black;
             color: gold;
+            width: 600px
         }
+
         h2{
             background-color: black;
             color: gold;
+            width: 600px
         }
+
         p{
             background-color: chocolate;
             color: blue;
+            width: 400px
         }
+
+        .premier{
+            background-color: grey;
+            color:rgba(11, 157, 255, 0.906);
+            width: 30%
+        }
+
         a{
             color: black;
         }
+
         ul{
             background-color: blanchedalmond;
         }
+
         ol{
             background-color: chartreuse;
         }
- 
