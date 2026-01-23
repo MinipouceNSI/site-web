@@ -37,4 +37,4 @@
             bouton.value = "ROUGE"
             pression = false;
             corps.style.background = "cyan"
-        });
+        }});
