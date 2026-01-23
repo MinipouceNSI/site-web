@@ -1,24 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style2.css">
-    <source>
-</head>
-<body class = "corps">
-    
-    <h1 class="t1">Jouons avec JS et les éléments HTML interactifs</h1>
-    <h1 class= "t2">TEST</h1>
-    <form action="">
-        <input type="range" name="" id="range" value="30">
-        <input type="button" value="click" id="btn">
-        <input type="checkbox" name="box" id="box">
-        <input type="text" name="text" id="text" value="caca">
-    </form>
 
-    <script>
+
 
     let pression1 = false;
     let corps = document.querySelector(".corps")
@@ -56,15 +37,4 @@
             bouton.value = "ROUGE"
             pression = false;
             corps.style.background = "cyan"
-        }
-       
-    });
-     //let curseur=document.getElementById(".range");
-       // curseur.addEventListener("change", function(){
-        //    titre.style.color = "black"
-
-       // });
-    </script>
-</body>
-</html>
-
+        });

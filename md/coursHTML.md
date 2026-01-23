@@ -100,8 +100,19 @@ Il s'agit d'un language de programmation comme Python mais initialement dédié 
 Il est prévut pour intéragir avec une page HTML.
 Le document peut se représenter ainsi :
 
-
-
+window
+├── alert()
+└── document
+    ├── getElementById()
+    ├── querySelector()
+    │       ↓
+    │   élément HTML
+    │       ├── innerHTML
+    │       ├── style
+    │       │     ├── color
+    │       │     ├── backgroundColor
+    │       │     └── display
+    │       └── addEventListener()
 
 
 Le JS permet de rendre une page HTML plus dynamique notamment grâce aux formulaires `<form></form>`
