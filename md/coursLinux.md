@@ -71,6 +71,9 @@ Syntaxe générale:    `nom --option argument` ou `nom -option argument`
 |`mv`|couper ou renommer les fichiers|`$ mv <source><destination>`|
 |`echo`|afficher un texte sur la sortie standard|`$ echo "caca"`|
 |`chmod`|modifie les permissions des fichiers(dossier)|`$ chmod 777 monFichier`|
+|`head`|affiche les premières lignes d'un fichier|`$ head monFichier`|
+|`tail`|affiche les dernières lignes d'un fichier|`$ tail -n (nombre) monFichier`|
+|`grep`|attraper une chaine dans un fichier|`$ grep chaine monFichier`|
 
 ---------------
 Pour éditer un fichier plusieurs commandes/éditeurs sont possibles :
@@ -135,3 +138,8 @@ chmod u-x,g+rw,o+w ./monfichier #retire x pour user, ajoute rw pour group, ajout
 --------------------
 
 Le symbole `>` ou `>>` permet de rediriger la sortie d'une commande vers un fichier. Si ce fichier n'existe pas, alors il est créé.
+Le symbole `>>` ajoute le texte à la suite sans écraser.
+
+--------------------------
+
+Les fichiers python `.py` ne sont pas des fichiers exécutables dans le shell (terminal). Il faut un programme pour ceci : `python ./monFichier`
