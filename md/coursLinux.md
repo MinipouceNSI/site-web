@@ -74,6 +74,7 @@ Syntaxe générale:    `nom --option argument` ou `nom -option argument`
 |`head`|affiche les premières lignes d'un fichier|`$ head monFichier`|
 |`tail`|affiche les dernières lignes d'un fichier|`$ tail -n (nombre) monFichier`|
 |`grep`|attraper une chaine dans un fichier|`$ grep chaine monFichier`|
+|`find`|recherche un fichier dans une arborescence|`$ find ./ -name "monFichier"`|
 
 ---------------
 Pour éditer un fichier plusieurs commandes/éditeurs sont possibles :
@@ -143,3 +144,16 @@ Le symbole `>>` ajoute le texte à la suite sans écraser.
 --------------------------
 
 Les fichiers python `.py` ne sont pas des fichiers exécutables dans le shell (terminal). Il faut un programme pour ceci : `python ./monFichier`
+
+-----------------------------
+
+Le *File Globbing* : la recherche de fichier avec une *wildcard*
+
+On peut agir (`find`, `cp`, `rm`, `...`) sur des fichiers sans en connaître le nom exact.
+
+|wildcard|signification|exemple|
+|----|----|----|
+|`*`|autant de caractère que l'on veut|`ls f*`|
+|`?`|exactement un seul caractère |`ls file?.txt`|
+|`[arq]`|un des caractères dans la liste|`ls file[arq]*`|
+|`[!a-r]`|un caractère qui n'est pas dans la liste|`ls file[!a-r]*`|
