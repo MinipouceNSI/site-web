@@ -1,34 +1,34 @@
-1. mkdir ./tpLinux
+1. mkdir ./tpLinux <br>
 
-2. tree
+2. tree <br>
 
-3. cd ./tpLinux 
-   pwd (pour vérifier où on se trouve)
-   touch fic1.txt fic2.txt fichier.md image.jpg exos.md exoos.txt
+3. cd ./tpLinux <br>
+   pwd (pour vérifier où on se trouve) <br>
+   touch fic1.txt fic2.txt fichier.md image.jpg exos.md exoos.txt <br>
 
-4. mkdir dosA/ dosA/dosB/ dosA/dosC/ dosD/
-   tree (pour vérifier)
+4. mkdir dosA/ dosA/dosB/ dosA/dosC/ dosD/ <br>
+   tree (pour vérifier) <br>
 
-5. mv ./fi* ./dosA/dosB
-   tree (pour vérifier)
+5. mv ./fi* ./dosA/dosB <br>
+   tree (pour vérifier) <br>
 
-6. cp fic1.txt ../
-   cp fic2.txt ../dosC
-   cp fichier.md ../../dosD
+6. cp fic1.txt ../<br>
+   cp fic2.txt ../dosC <br>
+   cp fichier.md ../../dosD <br>
 
-7. cd ../../
-   pwd (pour vérifier)
-   echo >> ./dosA/fic1.txt "bonjour tout le monde"
-   cat ./dosA/fic1.txt (pour vérifier)
-   ls -l ./dosA/fic1.txt pour vérifier la taille du fichier (23 dans mon cas)
+7. cd ../../ <br>
+   pwd (pour vérifier) <br>
+   echo >> ./dosA/fic1.txt "bonjour tout le monde" <br>
+   cat ./dosA/fic1.txt (pour vérifier) <br>
+   ls -l ./dosA/fic1.txt pour vérifier la taille du fichier (23 dans mon cas) <br>
 
-8. find ./-name *.???
+8. find ./-name *.??? <br>
 
 
-9. mv ./exoos.txt ./exos.txt
+9. mv ./exoos.txt ./exos.txt<br>
 
-10. cd ../
-touch supprimer.sh
-echo ./supprimer.sh >> rm -r ./tpLinux
-tree
-chmod 777
+10. cd ../ <br>
+touch supprimer.sh <br>
+echo ./supprimer.sh >> rm -r ./tpLinux <br>
+tree <br>
+chmod 777<br>
